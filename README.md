@@ -9,11 +9,17 @@ The code appears to be part of a data analysis project related to ecological spe
 Several R libraries are used in the project, including:
 
 dplyr: For data manipulation and summarization.
+
 ggplot2: For data visualization and plotting.
+
 tidyr: For data tidying.
+
 stringr: For string manipulation.
+
 AICcmodavg: For model selection based on AICc.
+
 gridExtra: For arranging multiple plots.
+
 reshape2: For reshaping data.
 
 # Data Loading and Preprocessing
