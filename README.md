@@ -38,9 +38,9 @@ Mean Distribution Plots
 
 . Two hypothesis tests are performed.
 
-   . The first test examines the difference in mean ecological scores between two periods for selected priority species.
+    . The first test examines the difference in mean ecological scores between two periods for selected priority species.
    
-   . The second test compares the difference in mean ecological scores between seven selected species and all eleven species for England.
+    . The second test compares the difference in mean ecological scores between seven selected species and all eleven species for England.
    
 # Linear Regression
 Two linear regression models are fitted for the periods Y00 and Y70, exploring the relationship between eco_status_7 and ecologicalStatus. Diagnostic plots such as a correlation plot and QQ-plot for residuals are created.
@@ -48,9 +48,9 @@ Two linear regression models are fitted for the periods Y00 and Y70, exploring t
 
 . Two multiple linear regression models are built:
 
-   . The first model includes all seven species.
+    . The first model includes all seven species.
    
-   . The second model includes only species with p-values less than 2e-16.
+    . The second model includes only species with p-values less than 2e-16.
    
 . Predictions are made for test data, and correlation plots are generated.
 
