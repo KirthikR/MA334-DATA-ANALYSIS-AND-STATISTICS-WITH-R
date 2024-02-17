@@ -22,24 +22,38 @@ The initial section involves setting the working directory, reading a CSV file (
 # Data Exploration
 Correlation Heatmap
 . The first exploration involves calculating the correlation between the seven selected species and creating a heatmap using ggplot2.
+
 Mean Distribution Plots
 . The second exploration includes two plots:
+
     . Mean distribution of the selected seven species for both periods.
+    
     . Mean distribution of all eleven species for both periods.
+    
 . These visualizations provide insights into the distribution of ecological conditions.
+
 # Extended Data Exploration
 . This section involves additional explorations, including looking for correlations between continuous variables, analyzing geographical data, and conducting hypothesis testing.
 # Hypothesis Testing
+
 . Two hypothesis tests are performed.
+
    . The first test examines the difference in mean ecological scores between two periods for selected priority species.
+   
    . The second test compares the difference in mean ecological scores between seven selected species and all eleven species for England.
+   
 # Linear Regression
 Two linear regression models are fitted for the periods Y00 and Y70, exploring the relationship between eco_status_7 and ecologicalStatus. Diagnostic plots such as a correlation plot and QQ-plot for residuals are created.
 # Multiple Linear Regression
+
 . Two multiple linear regression models are built:
+
    . The first model includes all seven species.
+   
    . The second model includes only species with p-values less than 2e-16.
+   
 . Predictions are made for test data, and correlation plots are generated.
+
 # Open Analysis
 The last section focuses on open analysis, examining and visualizing differences in mean species richness across locations and land zones in Wales, Scotland, and England. Visualizations include bar plots and facetted histograms.
 # Conclusion
